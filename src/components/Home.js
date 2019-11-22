@@ -30,10 +30,11 @@ class Home extends React.Component {
       return <div>Loading...</div>
     }
     return <div>
-      <section className='hero is-medium'>
+      <section className='hero is-medium is-info'>
         <div className='hero-body'>
           <div className='container'>
-            <h1 className='has-text-centered'>General Knowledge Quiz</h1>
+            <h1 className='title is-1 has-text-centered'>General Knowledge Quiz</h1>
+            <h2 className='subtitle is 3 has-text-centered'>Test your skill...</h2>
           </div>
         </div>
 
@@ -69,6 +70,7 @@ class Home extends React.Component {
             <option value='32'>Entertainment: Cartoon and Animations</option>
 
           </select>
+          
         </div>
         <div className='select'>
           <select name='difficulty' onChange={(e) => this.handleChange(e)}>
@@ -89,7 +91,7 @@ class Home extends React.Component {
         </Link>
         {/* <button className='button' onSubmit={(e) => this.handleSubmit(e)}>Start Quiz</button> */}
       </div>
-    </div >
+    </div>
   }
 
 }
