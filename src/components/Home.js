@@ -33,7 +33,7 @@ class Home extends React.Component {
       <section className='hero is-medium is-info'>
         <div className='hero-body'>
           <div className='container'>
-            <h1 className='title is-1 has-text-centered'>General Knowledge Quiz</h1>
+            <h1 className='title is-1 has-text-centered'>Ten Questions</h1>
             <h2 className='subtitle is 3 has-text-centered'>Test your skill...</h2>
           </div>
         </div>
