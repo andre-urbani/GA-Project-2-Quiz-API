@@ -20,7 +20,6 @@ class Home extends React.Component {
   handleChange(e) {
     this.setState(
       { [e.target.name]: e.target.value })
-
   }
 
 
@@ -39,7 +38,7 @@ class Home extends React.Component {
         </div>
 
       </section>
-      <div className='container has-text-centered'>
+      <div className="start-container">
         <div className='select'>
           <select name='category' onChange={(e) => this.handleChange(e)}>
             <option>Select Category</option>
@@ -70,7 +69,7 @@ class Home extends React.Component {
             <option value='32'>Entertainment: Cartoon and Animations</option>
 
           </select>
-          
+
         </div>
         <div className='select'>
           <select name='difficulty' onChange={(e) => this.handleChange(e)}>
@@ -81,15 +80,16 @@ class Home extends React.Component {
 
           </select>
         </div>
+
       </div>
-      <div className='container has-text-centered'>
-        <Link className='button' to={{
-          pathname: '/quiz',
-          state: this.state
-        }}>Start Quiz
-  
-        </Link>
-        {/* <button className='button' onSubmit={(e) => this.handleSubmit(e)}>Start Quiz</button> */}
+      <div className="start-quiz">
+        <div>
+          <Link className='button button-start' to={{
+            pathname: '/quiz',
+            state: this.state
+          }}>Start Quiz
+          </Link>
+        </div>
       </div>
     </div>
   }
