@@ -89,10 +89,8 @@ class Quiz extends React.Component {
 
 
   render() {
-    console.log(this.state.score)
-    console.log(this.state.answer)
     if (this.state.quiz.length === 0) {
-      return <div>Loading...</div>
+      return <div className='spinner-container'><div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
     } else if (this.state.questionNo > 10) {
       return <div className="score-container">
         <div className="score">Your score is {this.state.score}</div>

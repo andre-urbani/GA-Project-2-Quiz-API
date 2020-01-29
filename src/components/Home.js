@@ -26,11 +26,11 @@ class Home extends React.Component {
   render() {
 
     if (this.state.categories.length === 0) {
-      return <div>Loading...</div>
+      return <div className='spinner-container'><div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
     }
     return <div>
       <section className='hero is-medium is-info'>
-        <div className='hero-body'>
+        <div className='hero-body '>
           <div className='container'>
             <h1 className='title is-1 has-text-centered'>Ten Questions</h1>
             <h2 className='subtitle is 3 has-text-centered'>Test your skill...</h2>
