@@ -1,6 +1,6 @@
 # Quiz API Project - 10 questions
 
-![Quiz Home Page]()
+![Quiz Home Page](https://user-images.githubusercontent.com/41396233/73366196-751b9380-42a5-11ea-9237-a19d0f5534cd.png)
 
 ## Installation
 - Clone or download the repository
