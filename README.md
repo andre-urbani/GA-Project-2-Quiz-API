@@ -69,6 +69,8 @@ As mentioned previously, the decision was made to allow users to choose the cate
 
 Once the user has been redirected and the Quiz page is loaded, a call is made to the API via axios based on the user choices, and the first question is displayed.
 
+![Quiz](https://user-images.githubusercontent.com/41396233/73366212-7d73ce80-42a5-11ea-994f-d2ca487c6646.png)
+
 ```
 componentDidMount() {
     this.setState({ ...this.props.location.state },
@@ -106,7 +108,7 @@ e.preventDefault()
 
 ```
 
-
+![Quiz](https://user-images.githubusercontent.com/41396233/73366237-8369af80-42a5-11ea-8ce1-c2e1e95be38f.png)
 
 
 ## Result
