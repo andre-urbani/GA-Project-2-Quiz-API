@@ -5,6 +5,7 @@
 ## Installation
 - Clone or download the repository
 - Run ```npm init``` in the CLI
+- Run ```npm install``` in the CLI
 - Run ```npm run serve``` in the CLI
 
 ## Introduction
