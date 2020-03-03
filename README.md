@@ -12,7 +12,6 @@
 
 Ten Questions is my second project in the General Assembly Software Engineering Immersive course. The idea behind the project was to replicate a 'hackathon', where we had two days to complete a fully-functioning React.js app which consumed a public API. My proposal for this project was to utilise a quiz API provided by opentdb.com, which holds a database of thousands of different questions across a range of categories, to create a quiz app where users could select a category and difficulty of their choosing. The user then answers 10 questions based on these choices.
 
-You can try it out yourself [here]()
 
 ## Brief
 
